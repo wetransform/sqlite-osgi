@@ -19,8 +19,6 @@ repositories {
 def buddies = ['eu.esdihumboldt.hale.io.jdbc', 'net.sourceforge.schemacrawler' ]
 
 platform {
-	eclipseHome = new File("../eclipse")
-
 	// add sqlite jdbc driver to the platform configuration
 	bundle(group: 'org.xerial', name: 'sqlite-jdbc', version: '3.8.7') {
 		bnd {
